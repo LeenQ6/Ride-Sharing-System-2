@@ -4,9 +4,9 @@ public T data;
 public K key;
 public BSTNode<K, T> left, right;
 
-public BSTNode (T d, K k){
-data = d;
+public BSTNode (K k,T d){
 key = k;
+data = d;
 left = right = null;
 }
 }
